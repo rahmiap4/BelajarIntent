@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class PindahDataActivity3 : AppCompatActivity() {
+class PindahDataActivity : AppCompatActivity() {
     companion object{
         const val EXTRA_TEXT = "extra_text"
     }

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class PindahObjekActivity3 : AppCompatActivity() {
+class PindahObjekActivity : AppCompatActivity() {
     private lateinit var tvpenerimaobjek : TextView
 
     companion object{

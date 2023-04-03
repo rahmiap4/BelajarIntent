@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intentBiasa)
             }
             R.id.btn_pindah_data-> run{
-                val intentData = Intent(this@MainActivity, PindahDataActivity3::class.java)
-                intentData.putExtra(PindahDataActivity3.EXTRA_TEXT, "halo saya ami")
+                val intentData = Intent(this@MainActivity, PindahDataActivity::class.java)
+                intentData.putExtra(PindahDataActivity.EXTRA_TEXT, "halo saya ami")
                 startActivity(intentData)
             }
             R.id.btn_pindah_objek->run{
@@ -42,8 +42,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 2020,
                 "BM 2121 RAI",
                 )
-                val intentobjek = Intent(this@MainActivity, PindahObjekActivity3::class.java)
-                intentobjek.putExtra(PindahObjekActivity3.EXTRA_CARS,cars)
+                val intentobjek = Intent(this@MainActivity, PindahObjekActivity::class.java)
+                intentobjek.putExtra(PindahObjekActivity.EXTRA_CARS,cars)
                 startActivity(intentobjek)
             }
         }
